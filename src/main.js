@@ -17,6 +17,7 @@ const routes = [
   { path: "/browse", component: Browse },
   { path: "*", component: NotFound },
 ];
+//123
 
 const router = new VueRouter({
   mode: "history",
