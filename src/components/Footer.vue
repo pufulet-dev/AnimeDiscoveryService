@@ -13,9 +13,12 @@
     </span>
     <span class='media'>
       <p class="follow"> Follow us here: </p>
-      <a href="https://www.facebook.com/profile.php?id=100009957168694"> <img src="https://i.pinimg.com/originals/b7/63/69/b763699fd1fa3bfb374442593ae642e1.png" class="smedia0"> </a>
-      <a href="https://www.facebook.com/profile.php?id=100009957168694"> <img src="https://i.pinimg.com/originals/b6/8a/db/b68adb337de3d7828c3354b9747e285f.png" class="smedia2"> </a>
-      <a href="https://www.facebook.com/profile.php?id=100009957168694"> <img src="https://i.pinimg.com/originals/8a/77/05/8a770507298d728a1e3e039a0507dd8e.png" class="smedia1"> </a>
+      <!-- <a href="https://www.facebook.com/profile.php?id=100009957168694"> <img src="https://i.pinimg.com/originals/b7/63/69/b763699fd1fa3bfb374442593ae642e1.png" class="smedia0"> </a>
+      <a href="https://www.linkedin.com/in/madalina-chirpicinic-43ab821b5/"> <img src="https://i.pinimg.com/originals/b6/8a/db/b68adb337de3d7828c3354b9747e285f.png" class="smedia2"> </a>
+      <a href="https://www.linkedin.com/in/madalina-chirpicinic-43ab821b5/"> <img src="https://i.pinimg.com/originals/8a/77/05/8a770507298d728a1e3e039a0507dd8e.png" class="smedia1"> </a> -->
+      <a href="https://www.facebook.com/profile.php?id=100009957168694"> <img src="https://facebookbrand.com/wp-content/uploads/2019/10/flogo_RGB_HEX-BRC-Site-250.png?w=250&h=250" class="smedia0"> </a>
+      <a href="https://www.linkedin.com/in/madalina-chirpicinic-43ab821b5/"> <img src="https://icons-for-free.com/iconfiles/png/512/instagram+logo+logo+website+icon-1320190502826859478.png" class="smedia1"> </a>
+      <a href="https://www.linkedin.com/in/madalina-chirpicinic-43ab821b5/"> <img src="https://www.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" class="smedia2"> </a>
     </span>
     <h6 class="endOfPage"> Made in Moldova. @2020 Mădălina Chirpicinic </h6>
   </div>
@@ -37,9 +40,6 @@ export default {
     display:in-line;
     background: black;
     margin: 27px;
-  }
-  .footerTitle {
-    
   }
   .links {
     font-size: 30px;
@@ -63,8 +63,8 @@ export default {
     height: 66px;
   }
   .smedia1 {
-    width: 77px;
-    height: 62px;
+    width: 88px;
+    height: 88px;
   }
   .endOfPage {
     font-size: 20px;

@@ -28,6 +28,7 @@ export default {
   display:flex;
   margin: 27px;
   background: black;
+  position: relative;
 }
 .logo {
   width: 600px;

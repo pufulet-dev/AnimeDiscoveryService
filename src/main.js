@@ -6,6 +6,7 @@ import Home from "./HomePage.vue";
 import Search from "./SearchPage.vue";
 import Categories from "./CategoriesPage.vue";
 import Browse from "./BrowsePage.vue";
+import Show from "./ShowPage.vue";
 import NotFound from "./NotFoundPage.vue";
 
 Vue.use(VueRouter);
@@ -15,9 +16,9 @@ const routes = [
   { path: "/search", component: Search },
   { path: "/categories", component: Categories },
   { path: "/browse", component: Browse },
+  { path: "/show", component: Show },
   { path: "*", component: NotFound },
 ];
-//123
 
 const router = new VueRouter({
   mode: "history",

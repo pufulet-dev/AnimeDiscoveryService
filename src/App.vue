@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Header></Header>
-    <HeroSection></HeroSection>
     <router-view></router-view>
     <Footer></Footer>
   </div>
@@ -40,3 +39,5 @@ export default {
   }
 
  </style>
+
+//  post -> cream, patch, put -> updatam

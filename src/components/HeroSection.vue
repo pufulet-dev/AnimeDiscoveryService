@@ -26,21 +26,24 @@ export default {
 <style>
   #hero {
     background-color: black;
+    position: relative;
   }
   .imageHS{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    height: auto;
     border-radius: 40px;
     opacity: 16%;
     /* border: 6px solid black;  */
     box-shadow: 0 0 16px 8px black inset;
+    position: relative;
   }
   #heroTitle {  
     position: absolute;
     width:100%;
-    top: 40%;
+    top: 20%;
     left: 0; 
     display: inline;
     letter-spacing: 2px;
@@ -52,20 +55,22 @@ export default {
   }
   .buttonText {
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     font-size: 66px;
     width: 90%;
     background-color: #ea2d2e;
     border-radius: 66px;
     color: transparent;
     text-decoration: none;
-    line-height: 60px;
+    line-height: 51px;
+    cursor: pointer;
   }
   .buttonText {
     font-family: 'Balsamiq Sans', cursive;
-    font-size: 50px;
+    font-size: 45px;
     color: black;
   }
   .buttonText:hover {

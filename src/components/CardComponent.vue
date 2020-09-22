@@ -3,6 +3,7 @@
     <p id="allCard">
       <img src="https://i.redd.it/u46y46idzd101.jpg" class="cardImage">
       <span class="title"> {{title}} </span>
+      <span class="title"> {{episodes}} </span>
     </p>
   </div>
 </template>
@@ -13,6 +14,7 @@ export default {
   data() {
     return {
       title: "Bloody Marry and Her Friends in the Hoods",
+      episodes: "[66 episodes]",
     }
   }
 }

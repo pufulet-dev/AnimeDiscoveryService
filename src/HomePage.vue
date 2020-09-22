@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <HeroSection></HeroSection>
     <span class="allColl">
       <Header msg="Newest"></Header>
       <CardCollection></CardCollection>
@@ -16,6 +17,7 @@
 import CardCollection from "./components/CardCollection.vue";
 import Header from "./components/CardCollectionHeader.vue";
 import MoreAnime from "./components/MoreAnimeSection.vue";
+import HeroSection from "./components/HeroSection.vue";
 export default {
   name: "Home",
   data() {
@@ -26,6 +28,7 @@ export default {
     CardCollection,
     Header,
     MoreAnime,
+    HeroSection,
     props: { msg: String },
   }
 }
