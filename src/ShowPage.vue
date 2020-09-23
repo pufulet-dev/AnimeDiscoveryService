@@ -8,11 +8,17 @@
       allowfullscreen>
     </iframe>
     <DescriptionCard></DescriptionCard>
-  </div>  
+    <p class="episodes"> Episodes </p>
+    <EpisodeCollection></EpisodeCollection>
+    <p class="cast"> Cast </p>
+    <MetaCollection></MetaCollection>
+  </div> 
 </template>
 
 <script>
 import DescriptionCard from "./components/DescriptionCard.vue";
+import EpisodeCollection from "./components/ShowEpisodeCollection.vue";
+import MetaCollection from "./components/ShowMetaCollection.vue";
 export default {
   name: "ShowPage",
   data() {
@@ -21,12 +27,19 @@ export default {
   },
   components: {
     DescriptionCard,
+    EpisodeCollection,
+    MetaCollection,
   }
 }
 </script>
 
 <style>
-  p {
+  .episodes,
+  .cast {
     color: black;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 25px;
   }
 </style>

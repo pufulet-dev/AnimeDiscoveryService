@@ -41,13 +41,15 @@ export default {
     margin: 40px;
     width: 96%;
     display: grid;
-    grid-template: 30px 40px 40px 40px 80px 60px / 30px 1fr 6fr;
+    grid-template: 30px 40px 40px 40px 80px 60px / 30px 221px 1fr;
   }
   .demoImage {
     height: 240px;
     width: auto;
     position: relative;
     grid-area: 2 / 2 / 6 / 3;
+    margin-left: 20px;
+    margin-right: 30px;
   }
   .demoTitle {
     grid-area: 2 / 3 / 3 / 4;
