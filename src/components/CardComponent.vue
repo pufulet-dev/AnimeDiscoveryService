@@ -1,10 +1,14 @@
 <template>
   <div>
-    <p id="allCard">
-      <img src="https://i.redd.it/u46y46idzd101.jpg" class="cardImage">
-      <span class="title"> {{title}} </span>
-      <span class="title"> {{episodes}} </span>
-    </p>
+    <router-link to="/show">
+      <p id="allCard">
+        <img 
+          src="https://upload.wikimedia.org/wikipedia/en/6/66/Weathering_with_You_Poster.jpg" 
+          class="cardImage">
+        <span class="title"> {{title}} </span>
+        <span class="title"> {{episodes}} </span>
+      </p>
+    </router-link>
   </div>
 </template>
 
@@ -13,7 +17,7 @@ export default {
   name: "CardComponent",
   data() {
     return {
-      title: "Bloody Marry and Her Friends in the Hoods",
+      title: "Weathering With You",
       episodes: "[66 episodes]",
     }
   }
